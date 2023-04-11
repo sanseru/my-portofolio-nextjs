@@ -14,12 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link
-          rel="shortcut icon"
-          href="https://img.icons8.com/color/48/000000/console.png"
-        />
-      </head>
+      <head/>
       <body className="flex flex-col sm:flex-row">
         <Sidebar data={personalData} />
         <main className="grow-full p-8 sm:p-16 w-full sm:basis-2/3 ml-auto">
