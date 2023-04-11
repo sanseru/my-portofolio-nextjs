@@ -34,7 +34,6 @@ export const skills = {
 		{ icon: "💻", text: "Python" },
 		{ icon: "💻", text: "JavaScript" },
 		{ icon: "💻", text: "Express Js" },
-		{ icon: "💻", text: "React" },
 		{ icon: "ʦ", text: "TypeScript" },
 		{ icon: "🚀", text: "React" },
 		{ icon: "💾", text: "SQL" },

@@ -37,9 +37,13 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
-
+```bash
+pm2 start npm --name app1 -- run start -- -p 3001
+```
 ## Video tutorial
 
 https://youtu.be/eOH5QXEgEos?t=4377
 
+https://episyche.com/blog/user-guide-for-deploying-the-nextjs-app-in-production-using-pm2-and-nginx
+
+https://episyche.com/blog/user-guide-for-deploying-the-nextjs-app-in-production-using-pm2-and-nginx
