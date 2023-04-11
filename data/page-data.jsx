@@ -1,14 +1,13 @@
 export const personalData = {
-	name: "Joe Doe",
+	name: "Haris Lukman Hakim",
 	role: "Software Engineer",
 	education: [
-		"Bachelor of Science in Computer Science, University of Oxford(2015-2019)",
-		"Master of Science in Artificial Intelligence, Imperial College London (2019-2021)",
+		"Bachelor of Information Systems, University of Gunadarma (2013-2017)",
 	],
 	contactLinks: [
-		"mailto:emailto:time2code@gmail.com",
-		"https://twitter.com/time_tocode",
-		"https://linkedin.com/aliciarodriguezLi",
+		"mailto:emailto:lukmanhakim1805@gmail.com",
+		"https://twitter.com/HarisLKMN",
+		"https://linkedin.com/harislkmn",
 		"https://medium.com/@time2code.ali",
 	],
 };
@@ -16,8 +15,8 @@ export const personalData = {
 export const aboutMe = {
 	title: "About Me",
 	body: [
-		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
-		"When I'm not working, I love hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+		"I am a seasoned system engineer with experience in designing, developing, and maintaining control and monitoring systems for various applications. I have extensive experience in working with Modbus protocol and Emerson devices to optimize the performance of the systems. I have also developed several applications, including HRIS, Service Chat Bot, System Stock Opname, Covid-19 App, and barcoding system for warehouse management.",
+		"In addition to my technical skills, I possess excellent analytical and problem-solving skills, which enable me to diagnose and resolve complex technical issues. I am also a great team player with effective communication skills, enabling me to collaborate and work with cross-functional teams. I have a proactive and flexible work style that allows me to handle challenges outside of my job description.",
 	],
 };
 
@@ -31,7 +30,11 @@ export const skills = {
 		{ icon: "⌛️", text: "Time management" },
 	],
 	hard: [
+		{ icon: "💻", text: "PHP" },
 		{ icon: "💻", text: "Python" },
+		{ icon: "💻", text: "JavaScript" },
+		{ icon: "💻", text: "Express Js" },
+		{ icon: "💻", text: "React" },
 		{ icon: "ʦ", text: "TypeScript" },
 		{ icon: "🚀", text: "React" },
 		{ icon: "💾", text: "SQL" },
@@ -44,22 +47,15 @@ export const professionalData = {
 	title: "Professional Experience",
 	experiences: [
 		{
-			role: "Data Scientist, Acme Inc. (2021-Present)",
+			role: "System Engineer,  PT Control Systems Arena Para Nusa. (2023-Present)",
 			description:
-				"Design and implement machine learning models to analyze large datasets and drive business decisions. Collaborate with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior data scientists. Conduct regular presentations to stakeholders on the findings and insights generated from data analysis.",
+				"Design and implement System. Collaborate with cross-functional teams to develop and launch new products and features.",
 			current: true,
 		},
-
 		{
-			role: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
+			role: "Lead Programmer, PT Kartika Bina Medikatama. (2017-2023)",
 			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
-			current: false,
-		},
-		{
-			role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
-			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
+				"I have experience in developing and maintaining various applications for different purposes, such as the Medical Administration Service (MAS), Core app, EDC Service, Helpline and Monitoring Patient. I have also created applications for HRIS, a Service Chat Bot using Whatsapp Js, a System for Stock Opname in the warehouse, a Covid-19 App that integrates with other companies and devices, and a barcoding system for product management in the warehouse. Additionally, I have developed a Courier DO Tracking application that retrieves data from SAP. Apart from the applications that I have mentioned earlier, I have experience in developing other applications as well, such as an E-Commerce platform, a Learning Management System (LMS), a Customer Relationship Management (CRM) system, a Point of Sales (POS) system, and an Enterprise Resource Planning (ERP) system.",
 			current: false,
 		},
 	],

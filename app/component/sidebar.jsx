@@ -13,7 +13,7 @@ const Sidebar = ({ data }) => {
                     width={300}
                     height={300}
                     className="rounded-full h-full m-6"
-                    src="/images/julian-wan-WNoLnJo7tS8-unsplash.webp"
+                    src="/images/haris.webp"
                     alt="julian-wan-WNoLnJo7tS8-unsplash.webp"
                     aria-label="julian-wan-WNoLnJo7tS8-unsplash.webp"
                 />
@@ -27,15 +27,15 @@ const Sidebar = ({ data }) => {
                         <a className="icons-contactme" href={contactLinks?.[0]} aria-label={"email link"}>
                             <Envelope />
                         </a>
-                        <a className="icons-contactme" href={contactLinks?.[0]} aria-label={"twitter link"}>
+                        <a className="icons-contactme" href={contactLinks?.[1]} aria-label={"twitter link"}>
                             <Twitter />
                         </a>
-                        <a className="icons-contactme" href={contactLinks?.[0]} aria-label={"linkedin link"}>
+                        <a className="icons-contactme" href={contactLinks?.[2]} aria-label={"linkedin link"}>
                             <Linkedin />
                         </a>
-                        <a className="icons-contactme" href={contactLinks?.[0]} aria-label={"medium link"}>
+                        {/* <a className="icons-contactme" href={contactLinks?.[3]} aria-label={"medium link"}>
                             <Medium />
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>
