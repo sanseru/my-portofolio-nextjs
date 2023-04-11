@@ -17,10 +17,10 @@ const Sidebar = ({ data }) => {
           alt="haris_sharp.webp"
           aria-label="haris_sharp.webp"
         />
-        <h1 className="mb-2">{name}</h1>
+        <h1 className="mb-2 text-center">{name}</h1>
         <h2 className="mb-2">{role}</h2>
-        <p className="mb-2">{education[0]}</p>
-        <p className="mb-2">{education[1]}</p>
+        <p className="mb-2 text-center">{education[0]}</p>
+        <p className="mb-2 text-center">{education[1]}</p>
         <div className="text-white text-center mb-4 mt-4 sm:mt-8">
           <h3 className="mb-2">CONTACT ME</h3>
           <div className="flex flex-row justify-center gap-6">
