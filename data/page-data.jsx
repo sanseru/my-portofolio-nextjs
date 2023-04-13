@@ -7,7 +7,7 @@ export const personalData = {
 	contactLinks: [
 		"mailto:emailto:lukmanhakim1805@gmail.com",
 		"https://twitter.com/HarisLKMN",
-		"https://linkedin.com/harislkmn",
+		"https://www.linkedin.com/in/harislkmn",
 		"https://medium.com/@time2code.ali",
 	],
 };
