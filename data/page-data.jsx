@@ -48,7 +48,7 @@ export const professionalData = {
 		{
 			role: "System Engineer,  PT Control Systems Arena Para Nusa. (2023-Present)",
 			description:
-				"Design and implement System. Collaborate with cross-functional teams to develop and launch new products and features.",
+				"Responsibility is to design and implement systems while collaborating with cross-functional teams to develop and launch new products and features. Additionally, you have additional tasks related to specific projects. These include managing file sharing with external client Pertamina PHONWJ, overseeing contract management for the FCLC department, designing the application for the PAM system, and creating an Android app using React Native for another program. In these roles, you will be involved in various aspects of system development, contract management, application design, and mobile app development.",
 			current: true,
 		},
 		{
