@@ -14,7 +14,7 @@ const Skills = ({ data }) => {
         <button
           key={el}
           type="button"
-          className={`btn ${setBg(el)} ${setTabsAligment(el)} `}
+          className={`btn ${setBg(el)} ${setTabsAligment(el)} rounded`}
           onClick={() => setActibeTab(el)}
         >
           {el} Skill
